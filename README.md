@@ -1,35 +1,69 @@
-# AI Decision Twin
+# AI Decision Twin | AI & Data Science
 
-An AI-based decision support application built using Python, Machine Learning, and Streamlit to generate risk-related insights.
+An AI-powered loan risk analysis and decision-support application built using Python and Machine Learning. It allows users to explore applicant profiles and see how financial factors influence loan predictions.
 
-## Features
-- Interactive dashboard for user inputs
-- Machine learning-based risk analysis
-- Prediction results and risk-related insights
+## 🚀 Live Demo
 
-## Technologies Used
+**Try the application:** https://ai-decision-twin-renuka.streamlit.app/
+
+## ✨ Features
+
+- Interactive applicant profile inputs
+- Machine learning-based loan prediction
+- Dynamic risk and approval insights
+- Interactive dashboard built with Streamlit
+- Data-driven decision support
+
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
-- NumPy
 - Scikit-learn
+- Joblib
 - Streamlit
+- Plotly
 
-## Project Files
-- `app.py` – Main application
-- `train_model.py` – Model training script
-- `generate_dataset.py` – Dataset generation script
-- `requirements.txt` – Python dependencies
-- `loan_data` – Project dataset, if included
+## 📂 Project Structure
 
-## How to Run
-1. Download or clone this repository.
-2. Install the required libraries:
+```text
+AI-Decision-Twin/
+├── AI_Decision_Twin/
+│   ├── app.py
+│   ├── generate_dataset.py
+│   └── loan_data.csv
+├── train_model.py
+├── requirements.txt
+└── README.md
+```
 
-   `pip install -r requirements.txt`
+The trained model file is generated automatically when it is missing.
 
-3. Run the application:
+## 💻 Run Locally
 
-   `streamlit run app.py`
+1. Clone this repository:
 
-## Author
-Renuka Ramalakshmi
+   ```bash
+   git clone https://github.com/Ramalakshmi1201/AI-Decision-Twin.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd AI-Decision-Twin
+   ```
+
+3. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application:
+
+   ```bash
+   streamlit run AI_Decision_Twin/app.py
+   ```
+
+## ⚠️ Disclaimer
+
+This project is developed for educational and demonstration purposes. Its predictions should not be treated as actual financial advice or used as the sole basis for real loan decisions.
