@@ -4,7 +4,7 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
-df = pd.read_csv("loan_data.csv")
+df = pd.read_csv("AI_Decision_Twin/loan_data.csv")
 
 X = df.drop(
     "approved",
